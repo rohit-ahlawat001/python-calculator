@@ -13,3 +13,5 @@ elif c == '/':
         print(a / b)
     else:
         print("Error: Division by zero is not allowed.")
+
+# calculator code ended here
