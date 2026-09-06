@@ -7,4 +7,6 @@ newStr = str[::-1]
 st = "Rohit"
 neSt = ""
 for items in st:
-    print(items)
+    # print(items)
+    neSt = items + neSt
+print(neSt)
