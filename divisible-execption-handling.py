@@ -11,3 +11,6 @@ def checkDivisionError(a, b):
         return c
     
 checkDivisionError(10, 2)
+
+def throwError(valOone, valTwo):
+    valThree = None
