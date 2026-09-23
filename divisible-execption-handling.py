@@ -2,3 +2,7 @@
 
 def(a, c):
     c = None
+try:
+    c = a/b
+except ZeroDivisionError:
+    
