@@ -1,8 +1,11 @@
 # cresting the program for the exctption handlingDivisible by Zero
 
-def(a, c):
+def checkDivisionError(a, c):
     c = None
 try:
     c = a/b
 except ZeroDivisionError:
-    
+    raise ZeroDivisionError("Kindly enter the vlaid values")
+finally:
+    print(c)
+    return c
