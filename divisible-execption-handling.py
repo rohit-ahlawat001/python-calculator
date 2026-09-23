@@ -12,5 +12,9 @@ def checkDivisionError(a, b):
     
 checkDivisionError(10, 2)
 
-def throwError(valOone, valTwo):
+def throwError(valOne, valTwo):
     valThree = None
+try:
+    valThree = valOne / valTwo
+except ZeroDivisionError:
+    raise ZeroDivisionError("Kindly add the valid number")
