@@ -23,4 +23,4 @@ def throwError(valOne, valTwo):
     
 throwError(5, 0)
 
-# Creating program for checking the Vlaue error
+# Creating program for checking the Value Error
