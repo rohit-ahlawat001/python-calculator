@@ -22,3 +22,5 @@ def throwError(valOne, valTwo):
         raise ZeroDivisionError("Kindly add the valid number")
     
 throwError(5, 0)
+
+# Creating program for checking the Vlaue error
