@@ -30,3 +30,5 @@ value_two = input("Enter the second value: ")
 try:
     result = int(value_one) + int(value_two)
     print("The sum of the two values is:", result)
+except ValueError:
+    print("Invalid input! Please enter numbers only.")
