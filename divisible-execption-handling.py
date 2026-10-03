@@ -26,3 +26,7 @@ throwError(5, 0)
 # Creating program for checking the Value Error
 value_one = input("Enter the first value: ")
 value_two = input("Enter the second value: ")
+
+try:
+    result = int(value_one) + int(value_two)
+    print("The sum of the two values is:", result)
