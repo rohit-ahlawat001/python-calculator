@@ -24,3 +24,5 @@ def throwError(valOne, valTwo):
 throwError(5, 0)
 
 # Creating program for checking the Value Error
+value_one = input("Enter the first value: ")
+value_two = input("Enter the second value: ")
